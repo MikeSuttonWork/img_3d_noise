@@ -2,7 +2,7 @@ from .noise3d_calc import noise3d_calc
 from .util import img_3d_noise_as_sigma_dict
 
 
-def unbiased_sigmas(Cube, Defective):
+def unbiased_sigmas(Cube, Defective=None):
     """
     The first output of noise3d_calc is the variance VarDH   : Unbiased 7x1 vector of variances estimates.
     
