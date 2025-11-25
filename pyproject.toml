@@ -1,0 +1,16 @@
+[project]
+name = "img_3d_noise"
+version = "1.0.0"
+description = "Calculate 3D Noise for image stack"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.1"
+
