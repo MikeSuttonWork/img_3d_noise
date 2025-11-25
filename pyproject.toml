@@ -1,6 +1,6 @@
 [project]
 name = "img_3d_noise"
-version = "1.0.0"
+version = "1.1.0"
 description = "Calculate 3D Noise for image stack"
 requires-python = ">=3.12"
 dependencies = [
